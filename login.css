@@ -1,0 +1,54 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+label {
+   color: rgb(251, 177, 93);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    height: 100%;
+}
+
+.login {
+    width: 300px;
+    margin-top: 20px;
+}
+
+.input {
+    margin-bottom: 15px;
+}
+
+.input label {
+    display: block;
+    font-weight: bold;
+}
+
+.input input[type="text"],
+.input input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    margin: 0 auto;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(251, 177, 93);
+   
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    
+}
